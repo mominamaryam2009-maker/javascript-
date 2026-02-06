@@ -1,0 +1,76 @@
+.main {
+    height: 100vh;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.card {
+    opacity: 0; 
+    animation: fadeUp 1s ease-out forwards;
+    animation-delay: 0.3s;
+    box-shadow: 0 10px 30px rgba(0,0,0,0.2); /* Adds a nice depth effect */
+}
+
+@keyframes fadeUp {
+    from {
+        opacity: 0;
+        transform: translateY(40px);
+    }
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+.btn-brown {
+    background-color: #634832; /* A deep, aesthetic brown */
+    color: white;
+    border: none;
+    
+}
+.btn-brown:hover {
+    background-color:#7d4b22; /* Slightly darker on hover */
+    color: #f8f9fa;
+}
+.btn-plum {
+    background-color:plum; /* A deep, aesthetic brown */
+    color: white;
+    border: none;
+    
+}
+.btn-plum:hover {
+    background-color:rgb(225, 102, 225); /* Slightly darker on hover */
+    color: #f8f9fa;
+}
+.btn-summer{
+background-color:rgb(103, 209, 223); /* A deep, aesthetic brown */
+    color: white;
+    border: none;
+}
+.btn-summer:hover {
+    background-color:paleturquoise; /* Slightly darker on hover */
+    color: #f8f9fa;
+}
+.btn-winter{
+    background-color:palevioletred; /* A deep, aesthetic brown */
+    color: white;
+    border: none;
+}
+.btn-winter:hover {
+    background-color:rgb(233, 97, 142); /* Slightly darker on hover */
+    color: #f8f9fa;
+}
+.btn-dull-green {
+    background-color: #78866b; /* Dull Sage/Olive Green */
+    color: white;
+    border: none;
+}
+
+.btn-dull-green:hover {
+    background-color: #5e6954; /* Slightly darker on hover */
+    color: #f8f9fa;
+}
